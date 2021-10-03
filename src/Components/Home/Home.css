@@ -1,0 +1,96 @@
+section.hero-area{
+    background: url('../../images/bg-illustration.svg') no-repeat center center / cover;
+}
+
+
+
+.animationOne{
+    position: absolute;
+    bottom: 50px;
+    -webkit-animation: move-two 8s ease-in-out infinite;
+    animation: move-two 8s ease-in-out infinite;
+    left: -10px;
+}
+
+@keyframes move-one {
+    0% {
+        -webkit-transform: translateX(0) translateY(5px);
+        transform: translateX(0) translateY(5px)
+    }
+    50% {
+        -webkit-transform: translateX(0) translateY(-5px);
+        transform: translateX(0) translateY(-5px)
+    }
+    100% {
+        -webkit-transform: translateX(0) translateY(5px);
+        transform: translateX(0) translateY(5px)
+    }
+}
+@-webkit-keyframes move-one {
+    0% {
+        -webkit-transform: translateX(0) translateY(5px);
+        transform: translateX(0) translateY(5px)
+    }
+    50% {
+        -webkit-transform: translateX(0) translateY(-5px);
+        transform: translateX(0) translateY(-5px)
+    }
+    100% {
+        -webkit-transform: translateX(0) translateY(5px);
+        transform: translateX(0) translateY(5px)
+    }
+}
+
+.animationTwo{
+    -webkit-animation: move-one 7s ease-in-out infinite;
+    animation: move-one 7s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes move-two {
+    0% {
+        -webkit-transform: translateX(-25px) translateY(-225px);
+        transform: translateX(-25px) translateY(-225px)
+    }
+    50% {
+        -webkit-transform: translateX(-25px) translateY(-205px);
+        transform: translateX(-25px) translateY(-205px)
+    }
+    100% {
+        -webkit-transform: translateX(-25px) translateY(-225px);
+        transform: translateX(-25px) translateY(-225px)
+    }
+}
+@keyframes move-two {
+    0% {
+        -webkit-transform: translateX(-25px) translateY(-225px);
+        transform: translateX(-25px) translateY(-225px)
+    }
+    50% {
+        -webkit-transform: translateX(-25px) translateY(-205px);
+        transform: translateX(-25px) translateY(-205px)
+    }
+    100% {
+        -webkit-transform: translateX(-25px) translateY(-225px);
+        transform: translateX(-25px) translateY(-225px)
+    }
+}
+
+
+button.header-btn {
+    background-color: #ff6492;
+    color: #FFFFFF;
+    padding: 10px 21px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: .3s;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+
+button.header-btn:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
