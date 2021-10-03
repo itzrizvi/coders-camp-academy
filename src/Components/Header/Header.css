@@ -1,0 +1,16 @@
+header.head{
+    background: linear-gradient(75deg, #1351a8 5%, #162e66);
+}
+
+nav{
+    margin-top: 5px;
+}
+
+nav a{
+    transition: .5s;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #ff6492;
+}

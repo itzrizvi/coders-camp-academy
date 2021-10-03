@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "title": "Responsive Web-Design",
+        "languages": "HTML5, CSS3 and Frameworks",
+        "author": "Anthony",
+        "lessons": 35,
+        "takenby": 204,
+        "price": 199,
+        "img": "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript For Beginners",
+        "languages": "Modern JavaScript(ES6), HTML5, CSS3",
+        "author": "Frank",
+        "lessons": 45,
+        "takenby": 389,
+        "price": 290,
+        "img": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+        "id": 3,
+        "title": "React JS",
+        "languages": "JavaScript(ES6), React-JS, HTML5, CSS3",
+        "author": "Ted",
+        "lessons": 50,
+        "takenby": 300,
+        "price": 450,
+        "img": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": 4,
+        "title": "Angular JS",
+        "languages": "JavaScript(ES6), Angular-JS, HTML5, CSS3",
+        "author": "Brad",
+        "lessons": 55,
+        "takenby": 240,
+        "price": 299,
+        "img": "https://coursework.vschool.io/content/images/2016/05/angularjsgoogle.png"
+    },
+    {
+        "id": 5,
+        "title": "PHP For Beginners",
+        "languages": "PHP, HTML5, CSS3",
+        "author": "Boris",
+        "lessons": 60,
+        "takenby": 200,
+        "price": 399,
+        "img": "https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+        "id": 6,
+        "title": "PHP and Laravel",
+        "languages": "PHP(OOP), Laravel, HTML5, CSS3",
+        "author": "Leone",
+        "lessons": 67,
+        "takenby": 304,
+        "price": 499,
+        "img": "https://www.techcronus.com/wp-content/uploads/2019/06/Laravel-best-PHP-Framework-1568x1045.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Complete Web Development",
+        "languages": "HTML5, CSS3, JavaScript, ReactJS, Tailwind, NodeJS",
+        "author": "George",
+        "lessons": 75,
+        "takenby": 509,
+        "price": 599,
+        "img": "https://wallpapercave.com/wp/wp6784380.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Database For Beginners",
+        "languages": "JavaScript, PHP, MySQL, NodeJS, MongoDB",
+        "author": "Lincoln",
+        "lessons": 79,
+        "takenby": 200,
+        "price": 559,
+        "img": "https://www.kindpng.com/picc/m/204-2043007_web-server-and-database-icon-hd-png-download.png"
+    },
+    {
+        "id": 9,
+        "title": "Android App Development",
+        "languages": "Java, Python, HTML5, CSS3",
+        "author": "James",
+        "lessons": 80,
+        "takenby": 274,
+        "price": 399,
+        "img": "https://amrittechnology.com/wp-content/uploads/2019/01/Mdevpageimg-01.png"
+    },
+    {
+        "id": 10,
+        "title": "WordPress Development",
+        "languages": "WordPress PHP, HTML5, CSS3",
+        "author": "Jenia",
+        "lessons": 52,
+        "takenby": 404,
+        "price": 269,
+        "img": "https://techbullion.com/wp-content/uploads/2020/11/WordPress-Web-Development.png"
+    },
+    {
+        "id": 11,
+        "title": "Game Development For Beginners",
+        "languages": "C, C++, Python",
+        "author": "Jesse",
+        "lessons": 75,
+        "takenby": 333,
+        "price": 500,
+        "img": "https://wallpapercave.com/wp/wp7664912.png"
+    },
+    {
+        "id": 12,
+        "title": "Node JS",
+        "languages": "Node-JS, HTML5, CSS3 and Frameworks",
+        "author": "Sonia",
+        "lessons": 57,
+        "takenby": 154,
+        "price": 239,
+        "img": "https://vistapointe.net/images/nodejs-4.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Data Analysis",
+        "languages": "Matlab, Java, Python",
+        "author": "Jessica",
+        "lessons": 85,
+        "takenby": 209,
+        "price": 349,
+        "img": "https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2019/10/Enterprise-Data-Management-Services.jpg"
+    }
+]
