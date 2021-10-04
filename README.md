@@ -8,3 +8,4 @@
 <strong>3. This Website is built on ReactJS</strong></br>
 <strong>4. The Data of Service Pages are dynamic</strong></br>
 <strong>5. Tailwind is the CSS framework for this project</strong>
+<strong>6. This is a Fully Responsive Project</strong>
