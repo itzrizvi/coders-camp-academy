@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-        "featured": true,
         "title": "Responsive Web-Design",
         "languages": "HTML5, CSS3 and Frameworks",
         "author": "Anthony",
@@ -12,7 +11,6 @@
     },
     {
         "id": 2,
-        "featured": true,
         "title": "JavaScript For Beginners",
         "languages": "Modern JavaScript(ES6), HTML5, CSS3",
         "author": "Frank",
@@ -23,7 +21,6 @@
     },
     {
         "id": 3,
-        "featured": true,
         "title": "React JS",
         "languages": "JavaScript(ES6), React-JS, HTML5, CSS3",
         "author": "Ted",
@@ -34,7 +31,6 @@
     },
     {
         "id": 4,
-        "featured": true,
         "title": "Angular JS",
         "languages": "JavaScript(ES6), Angular-JS, HTML5, CSS3",
         "author": "Brad",
@@ -45,9 +41,8 @@
     },
     {
         "id": 5,
-        "featured": false,
         "title": "PHP For Beginners",
-        "languages": "PHP, HTML5, CSS3",
+        "languages": "PHP, HTML5, CSS3 and Frameworks",
         "author": "Boris",
         "lessons": 60,
         "takenby": 200,
@@ -56,7 +51,6 @@
     },
     {
         "id": 6,
-        "featured": false,
         "title": "PHP and Laravel",
         "languages": "PHP(OOP), Laravel, HTML5, CSS3",
         "author": "Leone",
@@ -67,7 +61,6 @@
     },
     {
         "id": 7,
-        "featured": false,
         "title": "Complete Web Development",
         "languages": "HTML5, CSS3, JavaScript, ReactJS, Tailwind, NodeJS",
         "author": "George",
@@ -78,7 +71,6 @@
     },
     {
         "id": 8,
-        "featured": false,
         "title": "Database For Beginners",
         "languages": "JavaScript, PHP, MySQL, NodeJS, MongoDB",
         "author": "Lincoln",
@@ -89,7 +81,6 @@
     },
     {
         "id": 9,
-        "featured": false,
         "title": "Android App Development",
         "languages": "Java, Python, HTML5, CSS3",
         "author": "James",
@@ -100,7 +91,6 @@
     },
     {
         "id": 10,
-        "featured": false,
         "title": "WordPress Development",
         "languages": "WordPress PHP, HTML5, CSS3",
         "author": "Jenia",
@@ -111,7 +101,6 @@
     },
     {
         "id": 11,
-        "featured": false,
         "title": "Game Development For Beginners",
         "languages": "C, C++, Python",
         "author": "Jesse",
@@ -122,7 +111,6 @@
     },
     {
         "id": 12,
-        "featured": false,
         "title": "Node JS",
         "languages": "Node-JS, HTML5, CSS3 and Frameworks",
         "author": "Sonia",
@@ -133,9 +121,8 @@
     },
     {
         "id": 13,
-        "featured": false,
         "title": "Data Analysis",
-        "languages": "Matlab, Java, Python",
+        "languages": "Matlab, Java, Python, Data Structure",
         "author": "Jessica",
         "lessons": 85,
         "takenby": 209,

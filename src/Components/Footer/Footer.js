@@ -28,7 +28,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="footer-navigation px-12">
-                        <h3 className="text-white font-bold text-xl pb-3">Important Links</h3>
+                        <h3 className="text-white font-bold text-xl pb-3 mt-1">Important Links</h3>
                         <nav className="text-left text-white">
                             <NavLink activeStyle={navActive} className="p-1 m-1 block" to="/home">Home</NavLink>
                             <NavLink activeStyle={navActive} className="p-1 m-1 block" to="/about">About</NavLink>
@@ -37,7 +37,7 @@ const Footer = () => {
                         </nav>
                     </div>
                     <div className="get-intouch px-12">
-                        <h3 className="text-white font-bold text-xl pb-3">Get In Touch</h3>
+                        <h3 className="text-white font-bold text-xl pb-3 mt-1">Get In Touch</h3>
                         <ul className="text-white leading-7">
                             <li className="my-2">{faMap} <span className="ml-2">1234 Street Name, City Name, USA</span></li>
                             <li className="my-2">{faEnv} <span className="ml-2">you@domain.com</span></li>
@@ -45,7 +45,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="social-icons px-12">
-                        <h3 className="text-white font-bold text-xl pb-4">Social Media</h3>
+                        <h3 className="text-white font-bold text-xl pb-4 mt-1">Social Media</h3>
                         <ul className="text-white leading-7">
                             <li>{faFb} <span className="ml-2">Facebook</span></li>
                             <li>{faIn} <span className="ml-2">LinkedIn</span></li>

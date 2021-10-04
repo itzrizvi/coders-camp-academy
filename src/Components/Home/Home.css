@@ -1,8 +1,11 @@
 section.hero-area{
     background: url('../../images/bg-illustration.svg') no-repeat center center / cover;
+    position: relative;
 }
 
-
+.left-hero-area{
+    z-index: 1;
+}
 
 .animationOne{
     position: absolute;
@@ -93,4 +96,34 @@ button.header-btn:hover {
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
+}
+
+.hero-bottom-shape{
+    position: absolute;
+    background: url('../../images/hero-bottom-shape.svg')no-repeat bottom center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+section.featured-services{
+    background: #f7f6fa;
+}
+
+.featured-title h3::after, 
+.team-title h3::after {
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: #ff6492;
+    content: "";
+    top: 60px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    bottom: 0;
 }

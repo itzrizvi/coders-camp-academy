@@ -1,0 +1,23 @@
+.member img {
+    width: 100%;
+    height: auto;
+}
+
+ul.team-social li {
+    background-color: transparent;
+    transition: .5s;
+}
+
+ul.team-social li:hover {
+    background-color: #2c234d;
+    color: #FFFFFF;
+}
+
+.member{
+    transition: all .2s ease;    
+}
+
+.member:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(31,45,61,.125);
+}

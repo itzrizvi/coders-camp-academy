@@ -10,7 +10,6 @@ import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Services from './Components/Services/Services';
 
-
 function App() {
   return (
     <div>
