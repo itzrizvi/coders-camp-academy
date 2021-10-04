@@ -1,3 +1,4 @@
+// Importing Icons, Images and Css
 import React from 'react';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import memberOne from '../../images/member-one.jpg';
@@ -8,11 +9,13 @@ import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const About = () => {
+    // Declaring Icons in variables
     const faFb = <FontAwesomeIcon icon={faFacebookF} />
     const faIn = <FontAwesomeIcon icon={faLinkedinIn} />
     const faInsta = <FontAwesomeIcon icon={faInstagram} />
     const faTwit = <FontAwesomeIcon icon={faTwitter} />
     return (
+        // Team Member Area Starts
         <div>
             <section className="hero-area pt-16 pb-16 mb-16">
                 <div className="hero-bottom-shape"></div>
@@ -20,12 +23,13 @@ const About = () => {
                     <h3 className="text-center font-bold text-white text-5xl">ABOUT US</h3>
                 </div>
             </section>
-
+            {/* Members Area Starts Here */}
             <section className="team py-8">
                 <div className="container mx-auto">
                     <div className="team-title text-center mb-12">
                         <h3 className="text-3xl relative uppercase font-semibold text-navyBlue">Our Monitoring Team</h3>
                     </div>
+                    {/* Member Grid Area Starts Here */}
                     <div className="grid grid-cols-4 gap-6 py-12">
                         <div className="member shadow-2xl p-4 rounded-md text-center leading-7">
                             <img src={memberOne} className="rounded-md mb-4" alt="" />
@@ -81,7 +85,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     );

@@ -1,3 +1,5 @@
+/** Featured Item Style Start **/
+
 .overlay {
     position: absolute;
     visibility: hidden;
@@ -8,44 +10,6 @@
     padding: 13px;
     left: 0;
     width: 100%;
-}
-
-.single-featured-service:hover > .overlay,
-.single-course:hover > .overlay{
-    visibility: visible;
-    opacity: 1;
-    bottom: 20px;
-}
-
-.single-featured-service h2, .single-course h2 {
-    color: #2c234d;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 11px;
-}
-
-
-.single-featured-service, .single-course {
-    background-color: #FFFFFF;
-    padding: 30px 15px 30px 15px;
-    border-radius: 7px;
-    position: relative;
-    transition: .5s;
-}
-
-.single-featured-service img, .single-course img {
-    width: 100%;
-    height: 190px;
-    display: block;
-    margin: auto;
-    border-radius: 5px;
-    margin-bottom: 23px;
-}
-
-h3.price {
-    font-size: 18px;
-    color: #2c234d;
-    font-weight: 700;
 }
 
 .overlay h3 {
@@ -61,4 +25,46 @@ h3.price {
     line-height: 30px;
     font-weight: 600;
     padding-bottom: 10px;
+}
+
+/*********** Featured Card Style and All Services Card Style *************/
+.single-featured-service:hover > .overlay,
+.single-course:hover > .overlay{
+    visibility: visible;
+    opacity: 1;
+    bottom: 20px;
+}
+
+.single-featured-service h2, 
+.single-course h2 {
+    color: #2c234d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+
+.single-featured-service, 
+.single-course {
+    background-color: #FFFFFF;
+    padding: 30px 15px 30px 15px;
+    border-radius: 7px;
+    position: relative;
+    transition: .5s;
+}
+
+.single-featured-service img, 
+.single-course img {
+    width: 100%;
+    height: 190px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 23px;
+}
+
+h3.price {
+    font-size: 18px;
+    color: #2c234d;
+    font-weight: 700;
 }

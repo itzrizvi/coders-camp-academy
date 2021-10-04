@@ -1,14 +1,18 @@
+// Import Font Awesome and CSS
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './Course.css';
 
 const Course = (props) => {
+    // Declaring Font Awesome Icon as a Variable
     const faUs = <FontAwesomeIcon icon={faUser} />
+    // Destructuring Data from Props
     const { title, author, img, languages, lessons, price, takenby } = props.course;
     return (
+        // Single Course Grid Area Starts
         <div className="single-course shadow-2xl mb-4">
-            <img src={img} alt="" />
+            <img src={img} alt="Course_Image" />
             <h2>{title}</h2>
             <h3 className="price">Price: ${price}</h3>
             <div className="overlay">

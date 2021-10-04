@@ -1,3 +1,5 @@
+/******* Hero Banner Area Style ********/
+
 section.hero-area{
     background: url('../../images/bg-illustration.svg') no-repeat center center / cover;
     position: relative;
@@ -15,6 +17,7 @@ section.hero-area{
     left: -10px;
 }
 
+/* First Animation For Hero Header Banner SVG Files*/
 @keyframes move-one {
     0% {
         -webkit-transform: translateX(0) translateY(5px);
@@ -49,7 +52,7 @@ section.hero-area{
     animation: move-one 7s ease-in-out infinite;
 }
 
-
+/* Second Animation For Hero Header Banner SVG Files*/
 @-webkit-keyframes move-two {
     0% {
         -webkit-transform: translateX(-25px) translateY(-225px);
@@ -98,6 +101,7 @@ button.header-btn:hover {
     color: #ffffff;
 }
 
+/* Header Banner Bottom Shape Image*/
 .hero-bottom-shape{
     position: absolute;
     background: url('../../images/hero-bottom-shape.svg')no-repeat bottom center;
@@ -109,7 +113,7 @@ button.header-btn:hover {
     height: 100%;
 }
 
-
+/******* Section Featured Services Style Area *******/
 section.featured-services{
     background: #f7f6fa;
 }

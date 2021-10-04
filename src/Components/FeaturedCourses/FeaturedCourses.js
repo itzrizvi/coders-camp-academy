@@ -1,14 +1,18 @@
+// Importing FontAwesome and CSS
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './FeaturedCourses.css';
 
 const FeaturedCourses = (props) => {
+    // Declaring Font Awesome Icon in a Variable
     const faUs = <FontAwesomeIcon icon={faUser} />
+    // Destructurig Data From Props
     const { title, author, img, languages, lessons, price, takenby } = props.featuredCourse;
     return (
+        // Showing Four Items As Featured
         <div className="single-featured-service shadow-2xl">
-            <img src={img} alt="" />
+            <img src={img} alt="Course_Image" />
             <h2>{title}</h2>
             <h3 className="price">Price: ${price}</h3>
             <div className="overlay">

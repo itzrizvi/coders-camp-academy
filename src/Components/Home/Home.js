@@ -1,3 +1,4 @@
+// Importing Hooks, Navlink, Svg Files, Css and Component
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import animationOne from '../../images/hero-animation-01.svg';
@@ -6,7 +7,9 @@ import FeaturedCourses from '../FeaturedCourses/FeaturedCourses';
 import './Home.css';
 
 const Home = () => {
+    // Setting Up Data with UseState Hook
     const [featuredCourses, setFeaturedCourses] = useState([]);
+    // Fetching Data for Dynamic UI
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())
@@ -15,6 +18,7 @@ const Home = () => {
 
     return (
         <div className="main">
+            {/* Hero Banner Area */}
             <section className="hero-area pt-28 pb-16">
                 <div className="hero-bottom-shape"></div>
                 <div className="container mx-auto grid grid-cols-2 gap-4">
@@ -27,6 +31,7 @@ const Home = () => {
                         </NavLink>
                     </div>
                     <div className="right-hero-area block relative ml-4">
+                        {/* Animated SVG Files */}
                         <img src={animationOne} width="180" className="animationOne" alt="AnimatedImage" />
                         <img src={animationTwo} className="animationTwo" alt="AnimatedImage" />
                     </div>
@@ -37,6 +42,7 @@ const Home = () => {
                     <h3 className="font-bold text-3xl uppercase text-navyBlue relative">Featured Services</h3>
                 </div>
                 <div className="container mx-auto grid grid-cols-4 gap-8">
+                    {/* Slicing then Mapping the Array of all Services for Showing only 4 Featured Items to Home */}
                     {
                         featuredCourses.slice(0, 4).map(featuredCrs => <FeaturedCourses key={featuredCrs.id} featuredCourse={featuredCrs}></FeaturedCourses>)
                     }
