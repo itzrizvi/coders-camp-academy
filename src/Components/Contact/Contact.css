@@ -6,3 +6,20 @@
     transform: translateY(-5px);
     box-shadow: 0 1rem 3rem rgba(31,45,61,.125);
 }
+
+/******* RESPONSIVE STYLES ********/
+
+@media screen and (max-width: 639px){
+    .card-grid{
+        padding-top: 5px;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 380px){
+    .contact-title{
+        font-size: 35px;
+    }
+}

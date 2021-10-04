@@ -24,7 +24,7 @@ const Footer = () => {
         <div>
             {/* Footer Area Starts */}
             <footer className="foot py-10">
-                <div className="container mx-auto grid grid-cols-4 gap-12">
+                <div className="container mx-auto grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-12 lg:gap-2">
                     {/* Footer Logo */}
                     <div className="logo">
                         <h3 className="text-white font-bold text-2xl">CO<span className="text-textPink">DE</span>RS CA<span className="text-textPink">MP</span></h3>
@@ -34,8 +34,8 @@ const Footer = () => {
                         </p>
                     </div>
                     {/* Footer Navigation */}
-                    <div className="footer-navigation px-12">
-                        <h3 className="text-white font-bold text-xl pb-3 mt-1">Important Links</h3>
+                    <div className="footer-navigation px-12 lg:px-4">
+                        <h3 className="text-white font-bold text-xl pb-3 mt-1 md:text-center sm:text-center">Important Links</h3>
                         <nav className="text-left text-white">
                             <NavLink activeStyle={navActive} className="p-1 m-1 block" to="/home">Home</NavLink>
                             <NavLink activeStyle={navActive} className="p-1 m-1 block" to="/about">About</NavLink>
@@ -44,18 +44,18 @@ const Footer = () => {
                         </nav>
                     </div>
                     {/* Street Address */}
-                    <div className="get-intouch px-12">
-                        <h3 className="text-white font-bold text-xl pb-3 mt-1">Get In Touch</h3>
-                        <ul className="text-white leading-7">
+                    <div className="get-intouch px-12 lg:px-4">
+                        <h3 className="text-white font-bold text-xl pb-3 mt-1 md:text-center sm:text-center">Get In Touch</h3>
+                        <ul className="text-white leading-7 md:text-left sm:text-center">
                             <li className="my-2">{faMap} <span className="ml-2">1234 Street Name, City Name, USA</span></li>
                             <li className="my-2">{faEnv} <span className="ml-2">you@domain.com</span></li>
                             <li className="my-2">{faPhn} <span className="ml-2">(123) 456-7890 - (123) 456-7890</span></li>
                         </ul>
                     </div>
                     {/* Footer Social Icons */}
-                    <div className="social-icons px-12">
-                        <h3 className="text-white font-bold text-xl pb-4 mt-1">Social Media</h3>
-                        <ul className="text-white leading-7">
+                    <div className="social-icons px-12 lg:px-4">
+                        <h3 className="text-white font-bold text-xl pb-4 mt-1 md:text-center sm:text-center">Social Media</h3>
+                        <ul className="text-white leading-7 md:text-left sm:text-center">
                             <li>{faFb} <span className="ml-2">Facebook</span></li>
                             <li>{faIn} <span className="ml-2">LinkedIn</span></li>
                             <li>{faInsta} <span className="ml-2">Instagram</span></li>

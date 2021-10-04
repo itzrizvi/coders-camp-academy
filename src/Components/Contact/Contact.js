@@ -17,12 +17,12 @@ const Contact = () => {
             <section className="hero-area pt-16 pb-16 mb-16">
                 <div className="hero-bottom-shape"></div>
                 <div className="container mx-auto grid grid-cols-1">
-                    <h3 className="text-center font-bold text-white text-5xl">Get In Touch</h3>
+                    <h3 className="contact-title text-center font-bold text-white text-5xl">Get In Touch</h3>
                 </div>
             </section>
             {/* Get In Touch Area Starts */}
             <section className="get-in-touch">
-                <div className="container mx-auto grid grid-cols-4 gap-8 pt-8 mb-20">
+                <div className="card-grid container mx-auto grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8 pt-8 mb-20">
                     <div className="card py-6 text-center shadow-2xl rounded-md border border-grayBorder">
                         <h2 className="text-textPink text-3xl mb-4">{faPhn}</h2>
                         <h3 className="text-navyBlue text-lg font-bold mb-2">Call Us</h3>

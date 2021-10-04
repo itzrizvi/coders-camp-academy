@@ -131,3 +131,84 @@ section.featured-services{
     margin: auto;
     bottom: 0;
 }
+
+
+/******** Responsive CSS **********/
+
+@media screen and (max-width: 1023px){
+    .animationTwo{
+        position: absolute;
+        left: 72px;
+    }
+    .animationOne{
+        bottom: -98px;
+    }
+    .left-hero-area {
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 909px){
+    .animationTwo{
+        width: 75%;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .animationOne {
+        bottom: -190px;
+        opacity: 0.7;
+    }
+    .animationTwo {
+        top: -270px;
+        width: 50%;
+        left: 260px;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 767px){
+    img.animationTwo {
+        width: 40%;
+    }
+    
+    img.animationOne {
+        left: 66px;
+        width: 150px;
+    }
+    .hero-area{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .single-featured-service {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .right-hero-area{
+        display: none;
+    }
+    .left-hero-area{
+        text-align: center !important;
+    }
+    .hero-area{
+        padding: 50px 20px 50px 20px;
+    }
+    .left-hero-area h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .featured-title h3{
+        font-size: 25px;
+    }
+}
+

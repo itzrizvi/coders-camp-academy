@@ -20,8 +20,8 @@ const FeaturedCourses = (props) => {
                 <p>Languages: {languages}</p>
                 <p className="author">Trainer: {author}</p>
                 <div className="grid grid-cols-2 gap-4 border-t-2 border-borderPink mt-2 pt-4">
-                    <p className="text-left">Lessons: {lessons}</p>
-                    <p className="text-right">{faUs} {takenby}</p>
+                    <p className="text-left"><span className="text-textPink">Lessons:</span> {lessons}</p>
+                    <p className="text-right"><span className="text-textPink">{faUs}</span> {takenby}</p>
                 </div>
             </div>
         </div>

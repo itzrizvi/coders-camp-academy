@@ -21,7 +21,7 @@ const Home = () => {
             {/* Hero Banner Area */}
             <section className="hero-area pt-28 pb-16">
                 <div className="hero-bottom-shape"></div>
-                <div className="container mx-auto grid grid-cols-2 gap-4">
+                <div className="container mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-4">
                     <div className="left-hero-area mt-16">
                         <h2 className="uppercase text-5xl font-bold text-white pb-6">Coders <span className="text-textPink">Camp</span> Academy</h2>
                         <p className="text-lg text-white leading-7 pb-6">Holisticly procrastinate mission-critical convergence with reliable customer service.
@@ -41,7 +41,7 @@ const Home = () => {
                 <div className="featured-title container mx-auto text-center py-16">
                     <h3 className="font-bold text-3xl uppercase text-navyBlue relative">Featured Services</h3>
                 </div>
-                <div className="container mx-auto grid grid-cols-4 gap-8">
+                <div className="container mx-auto grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8">
                     {/* Slicing then Mapping the Array of all Services for Showing only 4 Featured Items to Home */}
                     {
                         featuredCourses.slice(0, 4).map(featuredCrs => <FeaturedCourses key={featuredCrs.id} featuredCourse={featuredCrs}></FeaturedCourses>)

@@ -13,7 +13,7 @@ const Header = () => {
             {/* Header Starts Here */}
             <header className="head py-7">
                 <div className="container mx-auto">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4">
                         <div className="logo">
                             {/* Logo Here */}
                             <h3 className="text-white font-bold text-2xl">CO<span className="text-textPink">DE</span>RS CA<span className="text-textPink">MP</span></h3>

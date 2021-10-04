@@ -1,0 +1,17 @@
+/******* Responsive Styles *******/
+@media screen and (max-width: 639px){
+    .service-grid{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .service-title{
+        font-size: 35px;
+    }
+    .all-services{
+        padding-top: 5px;
+    } 
+}
+

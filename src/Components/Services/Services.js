@@ -19,12 +19,12 @@ const Services = () => {
             <section className="hero-area pt-16 pb-16 mb-16">
                 <div className="hero-bottom-shape"></div>
                 <div className="container mx-auto grid grid-cols-1">
-                    <h3 className="text-center font-bold text-white text-5xl">All Services</h3>
+                    <h3 className="service-title text-center font-bold text-white text-5xl">All Services</h3>
                 </div>
             </section>
             {/* All Services Maping For Each Data */}
             <section className="all-services pt-8 pb-24">
-                <div className="container mx-auto grid grid-cols-4 gap-8">
+                <div className="service-grid container mx-auto grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-8">
                     {
                         courses.map(course => <Course key={course.id} course={course}></Course>)
                     }

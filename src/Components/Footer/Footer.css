@@ -2,3 +2,22 @@
 footer.foot{
     background: linear-gradient(75deg, #162e66 5%, #1351a8);
 }
+
+
+/******** Responsive Styles **********/
+
+@media screen and (max-width: 639px){
+    footer.foot{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-navigation h3{
+        text-align: center;
+    }
+    .get-intouch{
+        text-align: center;
+    }
+    .social-icons{
+        text-align: center;
+    }
+}

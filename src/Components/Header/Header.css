@@ -15,3 +15,23 @@ nav a{
 nav a:hover {
     border-bottom: 2px solid #ff6492;
 }
+
+
+/******Responsive Styles*******/
+@media screen and (max-width: 767px){
+    .logo {
+        text-align: center;
+    }
+    nav {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 371px){
+    nav a {
+        font-size: 11px;
+        padding: 5px !important;
+        margin: 5px !important;
+    }
+}
+

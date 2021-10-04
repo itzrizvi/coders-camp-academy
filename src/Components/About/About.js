@@ -20,7 +20,7 @@ const About = () => {
             <section className="hero-area pt-16 pb-16 mb-16">
                 <div className="hero-bottom-shape"></div>
                 <div className="container mx-auto grid grid-cols-1">
-                    <h3 className="text-center font-bold text-white text-5xl">ABOUT US</h3>
+                    <h3 className="about-text text-center font-bold text-white text-5xl">ABOUT US</h3>
                 </div>
             </section>
             {/* Members Area Starts Here */}
@@ -30,7 +30,7 @@ const About = () => {
                         <h3 className="text-3xl relative uppercase font-semibold text-navyBlue">Our Monitoring Team</h3>
                     </div>
                     {/* Member Grid Area Starts Here */}
-                    <div className="grid grid-cols-4 gap-6 py-12">
+                    <div className="team-grid grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-6 py-12">
                         <div className="member shadow-2xl p-4 rounded-md text-center leading-7">
                             <img src={memberOne} className="rounded-md mb-4" alt="" />
                             <div className="details">

@@ -22,3 +22,27 @@ ul.team-social li:hover {
     transform: translateY(-5px);
     box-shadow: 0 1rem 3rem rgba(31,45,61,.125);
 }
+
+
+/******** Responsive Styles ********/
+@media screen and (max-width: 639px){
+    .team-grid{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .team{
+        padding-top: 0px;
+    }
+    .about-text{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .team-title h3{
+        font-size: 20px;
+    }
+}
