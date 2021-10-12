@@ -34,7 +34,7 @@ const About = () => {
                         <div className="member shadow-2xl p-4 rounded-md text-center leading-7">
                             <img src={memberOne} className="rounded-md mb-4" alt="" />
                             <div className="details">
-                                <h3 className="font-bold text-xl">Richard Ford</h3>
+                                <h3 className="font-bold text-xl">Rich Ford</h3>
                                 <h4 className="font-semibold text-md mb-4">CEO, Founder</h4>
                                 <ul className="text-navyBlue m-4 text-lg team-social">
                                     <li className="inline m-2 p-2">{faFb}</li>
